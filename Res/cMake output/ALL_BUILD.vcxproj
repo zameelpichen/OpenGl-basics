@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9A10B3A8-8B9D-3A0B-BCD2-BECAA1D0B64F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1 "-BE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output" --check-stamp-file "E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw_config.h.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3.pc.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\cmake_uninstall.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1 "-BE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output" --check-stamp-file "E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw_config.h.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3.pc.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\cmake_uninstall.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1 "-BE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output" --check-stamp-file "E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw_config.h.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3.pc.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\cmake_uninstall.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1 "-BE:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output" --check-stamp-file "E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/CMakeLists.txt;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw_config.h.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\src\glfw3.pc.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\cmake_uninstall.cmake.in;E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\ZERO_CHECK.vcxproj">
+      <Project>{EF443A46-DAFF-353D-89BB-04BB7DA34105}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\boing.vcxproj">
+      <Project>{571A820F-ED2A-322D-A282-D577BAE1F224}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\clipboard.vcxproj">
+      <Project>{30F74FB5-8F48-3D8F-B869-B830F8422F0B}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\cursor.vcxproj">
+      <Project>{3F7FE9BB-6EB4-3023-8340-E41BAD795ABF}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\empty.vcxproj">
+      <Project>{F4CEF352-C234-302C-95AE-1C89E6568E1F}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\events.vcxproj">
+      <Project>{1CA3CA68-560B-360E-8548-D6D9040A95C2}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\gamma.vcxproj">
+      <Project>{41CB35BE-6915-310C-A110-D03C92FC7F52}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\gears.vcxproj">
+      <Project>{4D269A37-791D-35A0-971B-49539525D0EB}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\src\glfw.vcxproj">
+      <Project>{4FC8AE92-991F-3718-A55D-60523F2148EF}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\glfwinfo.vcxproj">
+      <Project>{B85820A6-0FC7-362A-81E3-A058EDA7770D}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\heightmap.vcxproj">
+      <Project>{9EB3A448-50EE-32FF-9398-572917FAD624}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\icon.vcxproj">
+      <Project>{0673C848-D9D6-38E5-9BB7-B25769ABFD41}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\iconify.vcxproj">
+      <Project>{6D2D5C7C-91EC-333E-8E44-BA8C1D6BDACE}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\joysticks.vcxproj">
+      <Project>{BDE3B24B-D647-3B47-B3ED-9B661E5E76BD}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\monitors.vcxproj">
+      <Project>{D4BE6B40-93ED-3849-89DA-2470C1A38B40}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\msaa.vcxproj">
+      <Project>{C2318656-718D-32B3-AB84-A9A0868A0891}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\particles.vcxproj">
+      <Project>{50C33A4C-0394-3E4F-8736-31CBFF6A2768}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\reopen.vcxproj">
+      <Project>{F5809619-6B74-3EC8-B518-C240C41E1060}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\sharing.vcxproj">
+      <Project>{18D49D15-517E-3ADE-A5D6-E9FAE1A0A6A8}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\simple.vcxproj">
+      <Project>{EAE84DDF-1123-37DF-B0BF-133EB067CFCF}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\splitview.vcxproj">
+      <Project>{0013DB9E-0101-3DB7-AD9B-C2E1D84F000C}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\tearing.vcxproj">
+      <Project>{B0632304-7FEE-33CD-B947-586013A66FDA}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\threads.vcxproj">
+      <Project>{6AEEB63E-533F-351A-A686-E04D9C341D3C}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\timeout.vcxproj">
+      <Project>{CA379746-A939-32C1-B166-BA7FCBA3F346}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\title.vcxproj">
+      <Project>{58C5A1A4-915E-353C-AE9A-1EA72272885E}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\wave.vcxproj">
+      <Project>{A1A0BB8A-67E3-3174-954A-56CCA9C31F09}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\windows.vcxproj">
+      <Project>{BC16CED0-AA2C-3333-A0B1-152BA66DB758}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

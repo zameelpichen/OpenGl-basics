@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/examples/CMakeLists.txt
+  CMake does not need to re-run because E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output/examples/CMakeFiles/generate.stamp is up-to-date.
+  particles.c
+  tinycthread.c
+  getopt.c
+  glad.c
+  Generating Code...
+  particles.vcxproj -> E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\examples\Debug\particles.exe

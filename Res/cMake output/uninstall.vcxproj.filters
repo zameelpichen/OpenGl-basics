@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\glfw-3.2.1\CMakeLists.txt" />
+    <CustomBuild Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\940ee8f67b511cc72f687a0754f2253a\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{66C36B8F-853C-38CF-971E-E443A2F49E89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

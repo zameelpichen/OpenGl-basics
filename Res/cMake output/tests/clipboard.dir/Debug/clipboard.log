@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because E:/ZenithSkillMaker/OpenGL/TestAndLearn/OpenGl-basics/Res/cMake output/tests/CMakeFiles/generate.stamp is up-to-date.
+  clipboard.c
+  getopt.c
+  glad.c
+  Generating Code...
+  clipboard.vcxproj -> E:\ZenithSkillMaker\OpenGL\TestAndLearn\OpenGl-basics\Res\cMake output\tests\Debug\clipboard.exe
