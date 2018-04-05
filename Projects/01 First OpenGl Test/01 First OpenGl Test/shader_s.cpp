@@ -1,9 +1,7 @@
-#include "shader_s.h"
-
-
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#include "shader_s.h""
 
 #include <iostream>
 

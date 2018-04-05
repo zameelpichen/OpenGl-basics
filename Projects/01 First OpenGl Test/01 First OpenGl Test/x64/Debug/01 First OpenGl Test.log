@@ -1,0 +1,29 @@
+﻿shader_s.obj : error LNK2005: "void __cdecl framebuffer_size_callback(struct GLFWwindow *,int,int)" (?framebuffer_size_callback@@YAXPEAUGLFWwindow@@HH@Z) already defined in main.obj
+shader_s.obj : error LNK2005: "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) already defined in main.obj
+shader_s.obj : error LNK2005: main already defined in main.obj
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwInit
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwTerminate
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwWindowHint
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+shader_s.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwSetFramebufferSizeCallback
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwPollEvents
+main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+shader_s.obj : error LNK2001: unresolved external symbol glfwGetKey
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function main
+shader_s.obj : error LNK2001: unresolved external symbol glfwGetProcAddress
+D:\Project Store\OpenGl-basics\Res\3dparty\libs\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Project Store\OpenGl-basics\Projects\01 First OpenGl Test\x64\Debug\01 First OpenGl Test.exe : fatal error LNK1120: 12 unresolved externals
